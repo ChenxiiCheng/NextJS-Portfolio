@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  height: 100px;
+
+  p {
+    margin: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #737373;
+    opacity: 0.9;
+  }
+
+  a {
+    color: #737373;
+  }
+
+  p:hover,
+  a:hover {
+    color: #fff;
+    opacity: 1;
+  }
+}

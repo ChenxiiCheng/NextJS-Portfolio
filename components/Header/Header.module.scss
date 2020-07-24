@@ -1,0 +1,101 @@
+.navbar {
+  background-color: #000;
+  width: 100%;
+  min-width: 900px;
+  height: 68px;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 190px;
+  color: #fff;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  span {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: inherit;
+    opacity: 0.75;
+    cursor: pointer;
+    transition: all 0.4s;
+
+    &:hover {
+      color: #ffc107;
+      opacity: 1;
+    }
+  }
+
+  a {
+    color: #fff;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      font-size: 21px;
+      font-weight: 600;
+      padding: 0 10px;
+      opacity: 0.8;
+      cursor: pointer;
+
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        min-width: 100px;
+        background: none;
+        cursor: pointer;
+        transition: all 0.5s;
+
+        &:before {
+          width: 85px;
+          height: 8px;
+          content: '';
+          position: absolute;
+          transform: translateY(12px);
+          transition: 600ms;
+          z-index: -1;
+        }
+
+        &:hover:before {
+          height: 30px;
+          transform: translateY(0px);
+        }
+
+        &:hover {
+          color: white;
+          opacity: 1;
+        }
+      }
+      .pink:before {
+        background-image: linear-gradient(120deg, #ffc107, #fa709a);
+      }
+
+      .green:before {
+        background-image: linear-gradient(60deg, #77edae, #f76a8c);
+      }
+
+      .blue:before {
+        background-image: linear-gradient(120deg, #7490e8, #d92027);
+      }
+
+      .yellow:before {
+        background-image: linear-gradient(90deg, #0c9463, #b2dffb);
+      }
+    }
+  }
+}
+
+.scroll {
+  background: rgba(0, 0, 0, 0.65);
+  /* safari */
+  backdrop-filter: blur(20px);
+}
