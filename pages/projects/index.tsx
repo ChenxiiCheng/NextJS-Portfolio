@@ -10,15 +10,16 @@ const cardData = [
     tags: ['Next.js', 'Semantic UI', 'TypeScript'],
     title: 'NEW 🔥🔥 Personal Website',
     desc:
-      'This is my new version personal website based on Next.js, semantic UI, and TypeScript, deploy on Vercel',
+      'This is my new version personal website based on Next.js, semantic UI, and TypeScript, deploy on Vercel.',
   },
   {
     id: 1,
     url: 'https://insurance.chenxii.xyz',
     img: '/images/home1.png',
-    tags: ['React', 'ES6'],
+    tags: ['React', 'ES6', 'Sass'],
     title: '🏠 🚘  Insurance Official Website',
-    desc: 'This is a insurance official website based on React + React Router',
+    desc:
+      'This is an insurance official website based on React + React Router + Sass',
   },
   {
     id: 2,
@@ -27,15 +28,15 @@ const cardData = [
     tags: ['React', 'Express', 'PostgreSQL'],
     title: 'Insurance Purchase Platform 🏦',
     desc:
-      'This is a insurance purchase platform based on React + Express + PostgreSQL + Ant Design UI + TypeScript',
+      'This is an insurance purchase platform based on React + Express + PostgreSQL + Ant Design UI + TypeScript + Axios + Sass.',
   },
   {
     id: 3,
     img: '/images/reddit-vue.png',
     url: 'https://reddit.chenxii.xyz',
-    tags: ['Vue', 'Element UI'],
+    tags: ['Vue', 'Element UI', 'Sass'],
     title: 'Reddit 🎀  Forum',
-    desc: 'This is a reddit forum based on Vue + Aixos + Element UI',
+    desc: 'This is a reddit forum based on Vue + Aixos + Element UI + Sass.',
   },
   {
     id: 4,
@@ -50,19 +51,19 @@ const cardData = [
     id: 5,
     img: '/images/cooking-react.jpeg',
     url: 'https://cooking.chenxii.xyz',
-    tags: ['React', 'Ant Design UI'],
+    tags: ['React', 'Ant Design UI', 'Sass'],
     title: 'Recipe 😋 🍔 Website',
     desc:
-      'This is a learn cooking && share recipe website based on React + Aixos + Ant Design UI',
+      'This is a learn cooking and share recipe website based on React + Aixos + Ant Design UI.',
   },
   {
     id: 6,
     img: '/images/admin-react.png',
     url: 'https://cms.chenxii.xyz',
-    tags: ['React', 'Echarts'],
+    tags: ['React', 'Echarts', 'Less'],
     title: '👻 Company CMS',
     desc:
-      'This is a learn bicycle content management system based on React + Ant Design UI + Echarts + Axios',
+      'This is a learn bicycle content management system based on React + Ant Design UI + Echarts + Axios + Less.',
   },
 ];
 

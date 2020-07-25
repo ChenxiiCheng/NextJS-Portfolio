@@ -46,7 +46,7 @@ export default function Header() {
       <div>
         <span>
           <Icon name="hand point left outline" className={styles.icon} />
-          <a href="https://www.chenxii.xyz" target="_blank">
+          <a href="https://chenxiicheng.github.io/react-resume" target="_blank">
             {' '}
             <span className="back">Old Version</span>
           </a>
