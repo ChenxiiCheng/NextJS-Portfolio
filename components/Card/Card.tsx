@@ -15,7 +15,6 @@ interface IProps {
 
 const CardComponent = ({ data }: IProps) => {
   const { id, img, url, tags, title, desc } = data;
-  console.log('id', id);
   return (
     <div className={styles.cardContainer}>
       <a href={url} target="_blank">

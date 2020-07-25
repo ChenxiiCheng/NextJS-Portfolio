@@ -1,9 +1,20 @@
+import { useEffect } from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import Layout from '../components/Layout';
 
 import '../styles/index.scss';
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    window.addEventListener('contextmenu', _preventDefault);
+
+    return () => {
+      window.removeEventListener('contextmenu', _preventDefault);
+    };
+  }, []);
+
+  const _preventDefault = (event: Event) => event.preventDefault();
+
   return (
     <Layout>
       <Component {...pageProps} />
