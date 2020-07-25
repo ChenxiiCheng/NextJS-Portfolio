@@ -3,9 +3,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 60px;
-  margin-bottom: 15px;
-  height: 100px;
+  margin-top: 70px;
+  margin-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top: 1px solid #2d2d34;
+  z-index: 1;
 
   p {
     margin: 5px;

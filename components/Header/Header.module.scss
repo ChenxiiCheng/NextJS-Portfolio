@@ -1,18 +1,19 @@
 .navbar {
-  background-color: #000;
-  width: 100%;
-  min-width: 900px;
-  height: 68px;
-  position: fixed;
-  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
   padding: 10px 190px;
+  width: 100%;
+  min-width: 900px;
+  height: 68px;
+  z-index: 10;
   color: #fff;
+  background-color: #000;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 
   span {
+    margin-right: 30px;
     font-size: 21px;
     font-weight: 600;
     font-family: inherit;
@@ -23,6 +24,15 @@
     &:hover {
       color: #ffc107;
       opacity: 1;
+    }
+
+    .back {
+      opacity: 0.85;
+
+      &:hover {
+        color: #ffc107;
+        opacity: 1;
+      }
     }
   }
 
@@ -39,9 +49,9 @@
     padding: 0;
 
     li {
+      padding: 0 10px;
       font-size: 21px;
       font-weight: 600;
-      padding: 0 10px;
       opacity: 0.8;
       cursor: pointer;
 
@@ -49,17 +59,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #fff;
         min-width: 100px;
+        color: #fff;
         background: none;
         cursor: pointer;
         transition: all 0.5s;
 
         &:before {
+          position: absolute;
           width: 85px;
           height: 8px;
           content: '';
-          position: absolute;
           transform: translateY(12px);
           transition: 600ms;
           z-index: -1;
