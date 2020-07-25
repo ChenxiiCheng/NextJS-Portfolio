@@ -19,8 +19,6 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
-    console.log(router.pathname);
-
     if (router.pathname !== '/') {
       setBackToHome(true);
     } else {

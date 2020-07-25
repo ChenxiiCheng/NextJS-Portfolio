@@ -1,4 +1,5 @@
 import ReactRotatinText from 'react-rotating-text';
+import BackToTop from '../components/BackToTop/BackToTop';
 
 import styles from './index.module.scss';
 
