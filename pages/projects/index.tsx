@@ -42,7 +42,7 @@ const cardData = [
   {
     id: 4,
     img: '/images/plat.png',
-    url: 'http://172.81.242.65:3000',
+    url: 'https://github.com/ChenxiiCheng/Insurance-Management-Platform',
     tags: ['React', 'Express', 'PostgreSQL'],
     title: 'Insurance Purchase Platform 🏦',
     desc:
